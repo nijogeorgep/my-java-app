@@ -29,6 +29,9 @@ jobs:
       - name: create test_report
         run: |
            mkdir $GITHUB_WORKSPACE/test_report
+           echo $GITHUB_WORKSPACE
+           pwd
+           ls
        # Runs a set of commands using the runners shell
       - name: install jmeter
         run: |
